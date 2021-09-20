@@ -67,7 +67,7 @@ See a [full example](../tests/Erdcsharp.IntegrationTests/EsdtTokenIntegrationTes
 /// </summary>
 /// <param name="wallet"></param>
 /// <param name="token"></param>
-/// <param name="initialSupply">Initial supply, should have an even number of characters</param>
+/// <param name="initialSupply">Initial supply</param>
 /// <returns>The token identifier</returns>
 Task<string> IssueFungibleToken(Wallet wallet, Token token, BigInteger initialSupply);
 

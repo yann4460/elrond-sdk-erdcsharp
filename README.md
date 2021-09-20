@@ -9,9 +9,13 @@ This SDK depends on :
 
 ## How to install ? 
 
-Elronford SDK for .NET Core is delivered via nuget package, therefore it can be installed as follows:
 
+**The SDK will be published to nuget as soon as we have a stable release.**
+
+Elrond SDK for .NET Core is delivered via nuget package, therefore it can be installed as follows:
 `Install-Package elrond-sdk-erdcsharp`
+or
+`dotnet add package elrond-sdk-erdcsharp`
 
 # Main Features
 * Transaction construction, signing, broadcasting and querying.
